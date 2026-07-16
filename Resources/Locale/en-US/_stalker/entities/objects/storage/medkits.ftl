@@ -1,0 +1,10 @@
+ent-ClothingBeltMedicalStalker = Medical Waist Bag
+    .desc = A portable waist bag used by field medics.
+    .suffix = Stalker
+ent-ClothingBackpackDuffelMedicalStalker = Medical Bag
+    .desc = A portable bag used to carry a variety of medications.
+    .suffix = { ent-ClothingBeltMedicalStalker.suffix }
+ent-MedkitCMSStalker = CMS first aid kit
+    .desc = A compact first aid kit CMS used to carry a variety of medications can hold a defibrillator.
+ent-MedkitGrizzlyStalker = Grizzly Medkit
+    .desc = Grizzly Compact First Aid Kit, used to carry a variety of medications, can hold a defibrillator. More advanced version.
