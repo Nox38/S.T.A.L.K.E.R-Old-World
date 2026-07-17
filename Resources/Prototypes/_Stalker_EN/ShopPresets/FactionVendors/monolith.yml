@@ -10,6 +10,7 @@
     SetMonolithBuyableCrateInfiltrator2: 10
     ClothingNeckScarfWhite: 10
     MonolithCrateMedkit: 10
+    STThrowingknifeYellow: 100
     STWeaponRifleAKM: 10
     STWeaponRifleAKS74WinterMono: 10
     STWeaponRifleAKS74UWhiteMono: 10
@@ -130,6 +131,7 @@
       STKnifeShard: 85 # munny sink
       WeaponPistolGSH18: 1
       STWeaponSniperSVDMono: 85
+      ClothingBeltBandolierStalker: 5
 
   - name: shop-category-magazines
     priority: 2

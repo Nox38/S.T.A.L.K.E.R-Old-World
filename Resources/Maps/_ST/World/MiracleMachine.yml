@@ -46784,7 +46784,7 @@ entities:
     - type: Transform
       pos: 5.5,171.5
       parent: 1
-- proto: SpawnerZoneAnomalySolChance100
+- proto: SpawnerZoneAnomalySolChance100 #
   entities:
   - uid: 3004
     components:
