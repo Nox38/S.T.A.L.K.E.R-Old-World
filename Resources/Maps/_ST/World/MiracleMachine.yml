@@ -47457,7 +47457,7 @@ entities:
     component:
     - type: Transform
       pos: 48.5,139.5
-      parrent: 1
+      parent: 1
 - proto: STComputer
   entities:
   - uid: 112
