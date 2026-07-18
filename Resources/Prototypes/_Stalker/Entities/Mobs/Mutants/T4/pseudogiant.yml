@@ -63,8 +63,8 @@
     - type: BonusMeleeDamage
       heavyDamageMultiplier: 2
     - type: MovementSpeedModifier
-      baseWalkSpeed: 0.8
-      baseSprintSpeed: 1
+      baseWalkSpeed: 1.5
+      baseSprintSpeed: 2
     - type: Sprite
       sprite: _Stalker/Mobs/Mutants/pseudogiant.rsi
       layers:
