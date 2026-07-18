@@ -138,7 +138,7 @@
           prob: 0.45
         - id: STModuleScopeRiflesT2Nato
           prob: 0.45
-        - id: STWeaponModuleSniperSightT2
+        - id: STModuleSniperSightT2
           prob: 1
         - id: STModuleSMGGripT2
           prob: 0.45
