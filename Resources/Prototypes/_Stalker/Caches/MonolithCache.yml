@@ -36,8 +36,14 @@
           prob: 0.3
         - id: ClothingOuterCoatKevlarMonolithClean
           prob: 0.3
-        - id: ClothingOuterArmorSevaMonolithClean
+        - id: ClothingOuterArmorSevaMonolithPriest
           prob: 0.2
+        - id: ClothingOuterArmorSevaMonolithClean
+          prob: 0.3
+        - id: ClothingOuterArmorSevaMonolithClean
+          prob: 0.3
+        - id: ClothingOuterArmorSevaMonolithClean
+          prob: 0.3
         - id: ClothingOuterArmorMonolithClean
           prob: 0.4
         - id: ClothingOuterArmorMonolithClean
