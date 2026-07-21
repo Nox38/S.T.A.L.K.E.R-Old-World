@@ -94,6 +94,8 @@
   name: СР-2 «Вереск» серафимов
   parent: STWeaponSMGStalkerCP2Veresk
   id: STWeaponSMGStalkerCP2VereskLiturgy
+  name: Veresk «Liturgy»
+  description: A great smg able to tear through hoards of people.
   components:
     - type: Item
       sprite: _Stalker.rsi
