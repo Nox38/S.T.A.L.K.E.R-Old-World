@@ -556,8 +556,8 @@
       LP08Drum: 20
       # 13x108
       13x108Mag10: 20
-      13x108FMJBox: 50
-      13x108HPBox: 40
+      13x108FMJBox: 100
+      13x108HPBox: 60
       # 9x39
       Base939Mag10: 10
       939Mag20: 25
