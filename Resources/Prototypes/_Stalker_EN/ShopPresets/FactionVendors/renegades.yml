@@ -94,11 +94,11 @@
     MutantPartPseudogiantHeart: 2800
     MutantPartZombieHand: 520
     MutantPartIzlomArm: 680
-    MutantPartChimeraTooth: 3300 # nerfed for plans of nerfing the mutant soon
     MutantPartBurerBrain: 1500
     MutantPartControllerBrain: 2500
     MutantPartRustEgg: 40000
-
+    ClothingMaskChimera: 26250
+    MutantPartChimeraTooth: 11250
   categories:
   - name: shop-category-weapons
     priority: 1
