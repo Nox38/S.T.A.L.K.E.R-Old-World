@@ -581,21 +581,21 @@
       # 9x39
       STBox9x39SP5: 15 # T2
       STBox9x39PAB9: 25 # T3
-  - name: shop-category-medicine
-    priority: 4
-    items:
-      MedkitMilitary: 5
-      MedkitElite: 25
-      MedkitLAR: 30
-      ThermoOintment: 9
-      STOintmentGood: 9
-      STTourniquet: 5
-  - name: shop-category-provisions
-    priority: 5
-    items:
-      BoxMRE: 5
-      DrinkWhiskeyBottleFull: 2
-      DrinkCossackVodkaBottleFull: 1
+  #- name: shop-category-medicine StalkerOW
+    #priority: 4
+    #items:
+      #MedkitMilitary: 5
+      #MedkitElite: 25
+      #MedkitLAR: 30
+      #ThermoOintment: 9
+      #STOintmentGood: 9
+      #STTourniquet: 5
+  #- name: shop-category-provisions StalkerOW
+    #priority: 5
+    #items:
+      #BoxMRE: 5
+      #DrinkWhiskeyBottleFull: 2
+      #DrinkCossackVodkaBottleFull: 1
   - name: shop-category-armor
     priority: 6
     items:
@@ -603,11 +603,14 @@
       ClothingHeadHelmetBerill5MMilitary: 50
       ClothingHeadHelmetUlach: 170
       # OuterClothing
-      STClothingOuterArmorIOTVBlack: 300
-      STClothingOuterIOTVGEN4: 300
-      ClothingOuterArmorHazmatRf: 400
-      ClothingOuterArmorStalkerCombat: 450
-      STClothingOuterArmorVeryHeavy: 600
+      #STClothingOuterArmorIOTVBlack: 300 StalkerOW
+      #STClothingOuterIOTVGEN4: 300
+      #ClothingOuterArmorHazmatRf: 400
+      #ClothingOuterArmorStalkerCombat: 450
+      #STClothingOuterArmorVeryHeavy: 600
+      STOWClothingOuterArmorT4PVPLoner: 400 # +50$ markup
+      STOWClothingOuterArmorT4PVELoner: 450 # +50$ markup
+      
   - name: shop-category-storage-and-containers
     priority: 7
     items:
@@ -622,8 +625,8 @@
       # Gas masks
       ClothingMaskGP21: 60 # T4
       ClothingMaskM51: 60 # T4
-      ClothingMaskRCBZ2: 100 # T5
-      ClothingMaskunix5000: 100 # T5
+      #ClothingMaskRCBZ2: 100 # T5 StalkerOW
+      #ClothingMaskunix5000: 100 # T5
   - name: shop-category-research-equipment
     priority: 9
     items:

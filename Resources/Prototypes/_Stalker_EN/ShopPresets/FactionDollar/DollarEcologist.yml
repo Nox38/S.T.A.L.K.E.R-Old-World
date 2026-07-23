@@ -14,38 +14,39 @@
 #    priority: 2
 #    items:
       #Special
-  - name: shop-category-ammunition
-    priority: 3
-    items:
-      KhattabkaGrenade: 2
-      DG05SmokeGrenade: 3
-      TearGasGrenadeStalker: 3
+  #- name: shop-category-ammunition Stalker OW
+    #priority: 3
+    #items:
+      #KhattabkaGrenade: 2
+     #DG05SmokeGrenade: 3
+      #TearGasGrenadeStalker: 3
 #      SingularityGrenade: 25 Could be cool to have a mulcher grenade, need to find a treat for eco dollar
   - name: shop-category-armor
     priority: 4
     items:
-      STClothingOuterArmorVeryHeavySci: 450
+      #STClothingOuterArmorVeryHeavySci: 450 StalkerOW
+      STOWClothingOuterArmorT4PVEEcologist: 400
   - name: shop-category-storage-and-containers
     priority: 5
     items:
-      ClothingBackpackDuffelBlackTacticStalker: 90
+      ClothingBackpackDuffelBlackTacticStalker: 90  
       ClothingBackpackDuffelOliveTacticStalker: 90
-  - name: shop-category-research-equipment
-    priority: 7
-    items:
-      ZoneAnomalyDetectorAD3: 30
+  #- name: shop-category-research-equipment StalkerOW
+    #priority: 7
+    #items:
+      #ZoneAnomalyDetectorAD3: 30
   - name: shop-category-medicine
     priority: 10
     items:
-      BoxMRE: 5
-      MedkitMilitary: 3
-      MedkitScience: 5
-      MedkitElite: 15
-      MedkitLAR: 20
-      ThermoOintment: 5
-      STOintmentGood: 5
-      STTourniquet: 3
-      DefibrillatorCompact: 75
+      #BoxMRE: 5 StalkerOW
+      #MedkitMilitary: 3
+      #MedkitScience: 5
+      #MedkitElite: 15
+      #MedkitLAR: 20
+      #ThermoOintment: 5
+      #STOintmentGood: 5
+      #STTourniquet: 3
+      DefibrillatorCompact: 10
 #  - name: shop-category-modules
 #    priority: 11
 #    items:

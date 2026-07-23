@@ -14,15 +14,17 @@
 #    priority: 2
 #    items:
       #Special
-  - name: shop-category-ammunition
-    priority: 3
-    items:
-      KhattabkaGrenade: 2
+  #- name: shop-category-ammunition StalkerOW
+    #priority: 3
+    #items:
+      #KhattabkaGrenade: 2
   - name: shop-category-armor
     priority: 4
     items:
       # Armor
-      ClothingOuterArmorCN3b: 450
+      #ClothingOuterArmorCN3b: 450 StalkerOW
+      STOWClothingOuterArmorT4PVPClearSky: 350
+      STOWClothingOuterArmorT4PVEClearSky: 400
   - name: shop-category-storage-and-containers
     priority: 5
     items:
@@ -31,19 +33,19 @@
   - name: shop-category-research-equipment
     priority: 7
     items:
-      ZoneAnomalyDetectorAD3: 30
+      #ZoneAnomalyDetectorAD3: 30 StalkerOW
       ElectronicDetectorT2: 50
-  - name: shop-category-medicine
-    priority: 10
-    items:
-      BoxMRE: 5
-      MedkitMilitary: 3
-      MedkitScience: 5
-      MedkitElite: 15
-      MedkitLAR: 20
-      ThermoOintment: 5
-      STOintmentGood: 5
-      STTourniquet: 3
+  #- name: shop-category-medicine StalkerOW
+    #priority: 10
+    #items:
+      #BoxMRE: 5
+      #MedkitMilitary: 3
+      #MedkitScience: 5
+      #MedkitElite: 15
+      #MedkitLAR: 20
+      #ThermoOintment: 5
+      #STOintmentGood: 5
+      #STTourniquet: 3
 #  - name: shop-category-modules
 #    priority: 11
 #    items:
