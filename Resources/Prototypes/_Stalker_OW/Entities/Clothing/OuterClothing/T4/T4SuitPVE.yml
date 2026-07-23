@@ -27,7 +27,7 @@
       flatReductions:
         Blunt: 6
         Slash: 8
-        Piercing: 4
+        Piercing: 5
         Heat: 4
         Radiation: 3
         Caustic: 4
@@ -35,7 +35,7 @@
       coefficients:
         Blunt: 0.65
         Slash: 0.60
-        Piercing: 0.85
+        Piercing: 0.75
         Heat: 0.50
         Radiation: 0.6
         Caustic: 0.50
@@ -53,7 +53,7 @@
   parent: STOWClothingOuterArmorT4PVEBase
   id: STOWClothingOuterArmorT4PVELoner
   name: "KSN-13 'Behemoth' armor suit"
-  description: TBD
+  description: Carries 5 artifacts. # WIP description
   components:
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/outerClothing/begemot_armor.rsi
@@ -64,22 +64,22 @@
   parent: STOWClothingOuterArmorT4PVEBase
   id: STOWClothingOuterArmorT4PVEDuty
   name: "PSZ-9D armor suit"
-  description: Modified with a auto-injector system, which counteracts radiation and mends bruises and cuts. Powered armor technology allows for better load-bearing performance and increased stamina. # Not finished description
+  description: Modified with a auto-injector system, which counteracts radiation and mends bruises and cuts. Powered armor technology allows for better load-bearing performance and increased stamina. Carries 0 artifacts. # WIP description
   components:
   - type: STWeight
-    self: -90 # Three Amoeba
+    self: -90 # Equivalent to 3 Amoeba.
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/outerClothing/psz9d.rsi
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/psz9d.rsi
   - type: PersonalDamage
-    staminaDamage: -4
+    staminaDamage: -4 # Slightly better than a T2 Battery.
     interval: 1
     damage:
       types:
-        Radiation: -0.25
-        Blunt: -2.5
-        Slash: -2.5
+        Radiation: -0.25 # Equivalent to a T2 Stone Blood, though without all the extra damages.
+        Blunt: -2.5 # Equivalent to a T3 Flame.
+        Slash: -2.5 # Equivalent to a T3 Flame.
   - type: GrantsArtifactSlots
     slots: 0
 
@@ -87,7 +87,7 @@
   parent: STOWClothingOuterArmorT4PVEBase
   id: STOWClothingOuterArmorT4PVEFreedom
   name: "PSZ-9F armor suit"
-  description: TBD
+  description: Carries 5 artifacts. # WIP description
   components:
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/outerClothing/freedom_defender.rsi
@@ -98,7 +98,7 @@
   parent: STOWClothingOuterArmorT4PVEBase
   id: STOWClothingOuterArmorT4PVEMercenary
   name: "KSN-13 'Behemoth' armor suit"
-  description: TBD
+  description: Carries 5 artifacts. # WIP description
   components:
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/outerClothing/begemotM.rsi # Stand-in sprite
@@ -109,7 +109,7 @@
   parent: STOWClothingOuterArmorT4PVEBase
   id: STOWClothingOuterArmorT4PVEMilitary
   name: "PSZ-9 armor suit"
-  description: TBD
+  description: Carries 5 artifacts. # WIP description
   components:
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/outerClothing/begemot_freedom.rsi
@@ -120,7 +120,7 @@
   parent: STOWClothingOuterArmorT4PVEBase
   id: STOWClothingOuterArmorT4PVEClearSky
   name: "CHN-3B armor suit"
-  description: TBD
+  description: Carries 5 artifacts. # WIP description
   components:
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/outerClothing/cn3b.rsi
@@ -131,7 +131,7 @@
   parent: STOWClothingOuterArmorT4PVEBase
   id: STOWClothingOuterArmorT4PVEEcologist
   name: "SSP-100 armored HAZMAT suit" # Best name I could think of, sorry.
-  description: TBD
+  description: Carries 5 artifacts. # WIP description
   components:
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/outerClothing/armored_hazmat.rsi

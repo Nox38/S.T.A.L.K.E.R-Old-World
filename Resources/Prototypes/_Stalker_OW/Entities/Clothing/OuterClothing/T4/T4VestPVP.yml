@@ -43,7 +43,7 @@
   parent: STOWClothingOuterArmorT4PVPBase
   id: STOWClothingOuterArmorT4PVPLoner
   name: "IOTV Gen-4 plate carrier"
-  description: TBD
+  description: Carries 0 artifacts. # WIP description
   components:
     - type: Sprite
       sprite: _Stalker/Objects/Clothing/outerClothing/IOTV GEN4.rsi # Stand-in sprite
@@ -54,7 +54,7 @@
   parent: STOWClothingOuterArmorT4PVPBase
   id: STOWClothingOuterArmorT4PVPDuty
   name: "PAS-4 'Fortress' plate carrier"
-  description: TBD
+  description: The Personal Armor System-4 is a modern class IV plate carrier, commonly imported into the Zone. This one is painted in the red and black of Duty. Carries 0 artifacts. # WIP description
   components:
     - type: Sprite
       sprite: _Stalker/Objects/Clothing/outerClothing/heavy_duty_armor.rsi # Stand-in sprite
@@ -65,7 +65,7 @@
   parent: STOWClothingOuterArmorT4PVPBase
   id: STOWClothingOuterArmorT4PVPFreedom
   name: "IOTV Gen-4 plate carrier"
-  description: TBD
+  description: Carries 0 artifacts. # WIP description
   components:
     - type: Sprite
       sprite: _Stalker/Objects/Clothing/outerClothing/IOTV/Green.rsi # Stand-in sprite
@@ -76,7 +76,7 @@
   parent: STOWClothingOuterArmorT4PVPBase
   id: STOWClothingOuterArmorT4PVPMercenary
   name: "IOTV Gen-4 plate carrier"
-  description: TBD
+  description: Carries 0 artifacts. # WIP description
   components:
     - type: Sprite
       sprite: _Stalker/Objects/Clothing/outerClothing/IOTV/Black.rsi # Stand-in sprite
@@ -87,7 +87,7 @@
   parent: STOWClothingOuterArmorT4PVPBase
   id: STOWClothingOuterArmorT4PVPMilitary
   name: "PAS-4 'Fortress' plate carrier"
-  description: TBD
+  description: The Personal Armor System-4 is a modern class IV plate carrier, commonly imported into the Zone. This one is painted in standard OKSOP olive. Carries 0 artifacts. # WIP description
   components:
     - type: Sprite
       sprite: _Stalker/Objects/Clothing/outerClothing/plate_heavy_military.rsi # Stand-in sprite
@@ -98,7 +98,7 @@
   parent: STOWClothingOuterArmorT4PVPBase
   id: STOWClothingOuterArmorT4PVPBandit
   name: "PAS-4 'Fortress' plate carrier"
-  description: TBD
+  description: The Personal Armor System-4 is a modern class IV plate carrier, commonly imported into the Zone. This one features a... interesting paintjob. Carries 0 artifacts. # WIP description
   components:
     - type: Sprite
       sprite: _Stalker/Objects/Clothing/outerClothing/plate_heavy_bandit.rsi # Stand-in sprite
@@ -109,7 +109,7 @@
   parent: STOWClothingOuterArmorT4PVPBase
   id: STOWClothingOuterArmorT4PVPClearSky
   name: "IOTV Gen-4 plate carrier"
-  description: TBD
+  description: Carries 0 artifacts. # WIP description
   components:
     - type: Sprite
       sprite: _Stalker/Objects/Clothing/outerClothing/heavy_unstar.rsi # Stand-in sprite
