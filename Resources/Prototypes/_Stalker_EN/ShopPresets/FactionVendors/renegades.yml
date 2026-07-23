@@ -98,7 +98,8 @@
     MutantPartBurerBrain: 1500
     MutantPartControllerBrain: 2500
     MutantPartRustEgg: 40000
-
+    ClothingMaskChimera: 26250
+    MutantPartChimeraTooth: 11250
   categories:
   - name: shop-category-weapons
     priority: 1

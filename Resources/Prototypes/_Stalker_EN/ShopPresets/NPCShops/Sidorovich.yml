@@ -97,6 +97,8 @@
     MutantPartBurerBrain: 2000
     MutantPartControllerBrain: 3500
     MutantPartRustEgg: 50000
+    ClothingMaskChimera: 35000
+    MutantPartChimeraTooth: 15000
 
     # Meat
     STFoodMeatSalo: 60
