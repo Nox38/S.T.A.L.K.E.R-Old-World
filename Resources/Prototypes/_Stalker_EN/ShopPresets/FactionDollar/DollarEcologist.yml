@@ -6,10 +6,10 @@
 
 
   categories:
-  #- name: shop-category-ammunition
-    #priority: 3
-    #items:
-      #SingularityGrenade: 25 - It would be really funny to uncomment this.
+  - name: shop-category-ammunition
+    priority: 3
+    items:
+      SingularityGrenade: 25 # Temporarily uncommenting this EN line to give Eco something to play with while we work on other stuff.
   - name: shop-category-armor
     priority: 4
     items:

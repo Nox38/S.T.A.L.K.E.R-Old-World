@@ -9,8 +9,8 @@
   - name: shop-category-armor
     priority: 4
     items:
-      STOWClothingOuterArmorT4PVPClearSky: 350
-      STOWClothingOuterArmorT4PVEClearSky: 400
+      STOWClothingOuterArmorT4PVPClearSky: 250
+      STOWClothingOuterArmorT4PVEClearSky: 300
   - name: shop-category-storage-and-containers
     priority: 5
     items:
