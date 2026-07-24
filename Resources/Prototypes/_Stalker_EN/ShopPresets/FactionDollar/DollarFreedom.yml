@@ -20,8 +20,8 @@
     priority: 4
     items:
       #ClothingHeadHelmetUlach: 170 - Removed pending balance changes
-      STOWClothingOuterArmorT4PVPFreedom: 350
-      STOWClothingOuterArmorT4PVEFreedom: 400
+      OWClothingOuterArmorT4PVPFreedom: 350
+      OWClothingOuterArmorT4PVEFreedom: 400
   - name: shop-category-storage-and-containers
     priority: 5
     items:

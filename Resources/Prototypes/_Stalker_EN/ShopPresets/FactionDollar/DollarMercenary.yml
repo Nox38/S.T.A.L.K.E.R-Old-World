@@ -16,8 +16,8 @@
     items:
       #ClothingHeadHelmetBulatMercenary: 120 - Removed pending balance changes
       #ClothingHeadHelmetUlachEasy: 170 - Removed pending balance changes
-      STOWClothingOuterArmorT4PVPMercenary: 250 # -100$ discount
-      STOWClothingOuterArmorT4PVEMercenary: 300 # -100$ discount
+      OWClothingOuterArmorT4PVPMercenary: 250 # -100$ discount
+      OWClothingOuterArmorT4PVEMercenary: 300 # -100$ discount
       
   - name: shop-category-storage-and-containers
     priority: 5

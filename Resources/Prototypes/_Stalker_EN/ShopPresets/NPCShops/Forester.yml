@@ -588,8 +588,8 @@
       #ClothingHeadHelmetBerill5MMilitary: 50 - Removed pending balance changes
       #ClothingHeadHelmetUlach: 170 - Removed pending balance changes
       # OuterClothing
-      STOWClothingOuterArmorT4PVPLoner: 400 # +50$ markup
-      STOWClothingOuterArmorT4PVELoner: 450 # +50$ markup
+      OWClothingOuterArmorT4PVPLoner: 400 # +50$ markup
+      OWClothingOuterArmorT4PVELoner: 450 # +50$ markup
       
   - name: shop-category-storage-and-containers
     priority: 7

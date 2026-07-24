@@ -21,7 +21,7 @@
     items:
       #ClothingHeadHelmetUlach: 170 - Removed pending balance changes
       STOWClothingOuterArmorT4PVPDuty: 350
-      STOWClothingOuterArmorT4PVEDuty: 400
+      OWClothingOuterArmorT4PVEDuty: 400
   - name: shop-category-storage-and-containers
     priority: 5
     items:

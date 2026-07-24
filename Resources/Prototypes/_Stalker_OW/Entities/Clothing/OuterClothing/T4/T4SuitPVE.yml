@@ -2,7 +2,7 @@
 # Faction variants of the armor can have adjusted stats, just make sure to explain the rationale in comments.
 - type: entity
   parent: STClothingOuterArmorStorageBasic # RU parent
-  id: STOWClothingOuterArmorT4PVEBase
+  id: OWClothingOuterArmorT4PVEBase
   abstract: true
   components:
   - type: STWeight
@@ -33,8 +33,8 @@
         Caustic: 4
         Shock: 4
       coefficients:
-        Blunt: 0.65
-        Slash: 0.60
+        Blunt: 0.60
+        Slash: 0.55
         Piercing: 0.75
         Heat: 0.50
         Radiation: 0.6
@@ -50,8 +50,8 @@
     slots: 5
 
 - type: entity
-  parent: STOWClothingOuterArmorT4PVEBase
-  id: STOWClothingOuterArmorT4PVELoner
+  parent: OWClothingOuterArmorT4PVEBase
+  id: OWClothingOuterArmorT4PVELoner
   name: "KSN-13 'Behemoth' armor suit"
   description: Carries 5 artifacts. # WIP description
   components:
@@ -61,8 +61,8 @@
     sprite: _Stalker/Objects/Clothing/outerClothing/begemot_armor.rsi
 
 - type: entity
-  parent: STOWClothingOuterArmorT4PVEBase
-  id: STOWClothingOuterArmorT4PVEDuty
+  parent: OWClothingOuterArmorT4PVEBase
+  id: OWClothingOuterArmorT4PVEDuty
   name: "PSZ-9D armor suit"
   description: Modified with a auto-injector system, which counteracts radiation and mends bruises and cuts. Powered armor technology allows for better load-bearing performance and increased stamina. Carries 0 artifacts. # WIP description
   components:
@@ -84,8 +84,8 @@
     slots: 0
 
 - type: entity
-  parent: STOWClothingOuterArmorT4PVEBase
-  id: STOWClothingOuterArmorT4PVEFreedom
+  parent: OWClothingOuterArmorT4PVEBase
+  id: OWClothingOuterArmorT4PVEFreedom
   name: "PSZ-9F armor suit"
   description: Carries 5 artifacts. # WIP description
   components:
@@ -95,8 +95,8 @@
     sprite: _Stalker/Objects/Clothing/outerClothing/freedom_defender.rsi
 
 - type: entity
-  parent: STOWClothingOuterArmorT4PVEBase
-  id: STOWClothingOuterArmorT4PVEMercenary
+  parent: OWClothingOuterArmorT4PVEBase
+  id: OWClothingOuterArmorT4PVEMercenary
   name: "KSN-13 'Behemoth' armor suit"
   description: Carries 5 artifacts. # WIP description
   components:
@@ -106,8 +106,8 @@
     sprite: _Stalker/Objects/Clothing/outerClothing/begemotM.rsi
 
 - type: entity
-  parent: STOWClothingOuterArmorT4PVEBase
-  id: STOWClothingOuterArmorT4PVEMilitary
+  parent: OWClothingOuterArmorT4PVEBase
+  id: OWClothingOuterArmorT4PVEMilitary
   name: "PSZ-9 armor suit"
   description: Carries 5 artifacts. # WIP description
   components:
@@ -117,8 +117,8 @@
     sprite: _Stalker/Objects/Clothing/outerClothing/begemot_freedom.rsi
 
 - type: entity
-  parent: STOWClothingOuterArmorT4PVEBase
-  id: STOWClothingOuterArmorT4PVEClearSky
+  parent: OWClothingOuterArmorT4PVEBase
+  id: OWClothingOuterArmorT4PVEClearSky
   name: "CHN-3B armor suit"
   description: Carries 5 artifacts. # WIP description
   components:
@@ -128,8 +128,8 @@
     sprite: _Stalker/Objects/Clothing/outerClothing/cn3b.rsi
 
 - type: entity
-  parent: STOWClothingOuterArmorT4PVEBase
-  id: STOWClothingOuterArmorT4PVEEcologist
+  parent: OWClothingOuterArmorT4PVEBase
+  id: OWClothingOuterArmorT4PVEEcologist
   name: "SSP-100 armored HAZMAT suit" # Best name I could think of, sorry.
   description: Carries 5 artifacts. # WIP description
   components:

@@ -9,8 +9,8 @@
   - name: shop-category-armor
     priority: 4
     items:
-      STOWClothingOuterArmorT4PVPMilitary: 250 # -100$ discount
-      STOWClothingOuterArmorT4PVEMilitary: 300 # -100$ discount
+      OWClothingOuterArmorT4PVPMilitary: 250 # -100$ discount
+      OWClothingOuterArmorT4PVEMilitary: 300 # -100$ discount
   - name: shop-category-storage-and-containers
     priority: 5
     items:

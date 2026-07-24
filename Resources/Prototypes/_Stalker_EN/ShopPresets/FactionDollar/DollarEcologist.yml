@@ -13,7 +13,7 @@
   - name: shop-category-armor
     priority: 4
     items:
-      STOWClothingOuterArmorT4PVEEcologist: 400
+      OWClothingOuterArmorT4PVEEcologist: 400
   - name: shop-category-storage-and-containers
     priority: 5
     items:

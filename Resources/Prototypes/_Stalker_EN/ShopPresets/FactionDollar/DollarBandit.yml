@@ -15,7 +15,7 @@
     priority: 4
     items:
       #ClothingHeadHelmet1SHBandit: 185 - Awaiting balance changes
-      STOWClothingOuterArmorT4PVPBandit: 350
+      OWClothingOuterArmorT4PVPBandit: 350
   - name: shop-category-storage-and-containers
     priority: 5
     items:
