@@ -297,15 +297,19 @@
   suffix: ST
   name: база плащей
   components:
-  - type: Storage
-    maxItemSize: Tiny
-    grid:
-      - 0,0,0,1
-      - 2,0,2,1
-  - type: UserInterface
-    interfaces:
-      enum.StorageUiKey.Key:
-        type: StorageBoundUserInterface
+  # StalkerOW - Begin (Experimental Coat Change)
+  - type: STWeight
+    self: 0.25
+  #- type: Storage
+  #  maxItemSize: Tiny
+  #  grid:
+  #    - 0,0,0,1
+  #    - 2,0,2,1
+  #- type: UserInterface
+  #  interfaces:
+  #    enum.StorageUiKey.Key:
+  #      type: StorageBoundUserInterface
+  # StalkerOW - End
   - type: ContainerContainer
     containers:
       toggleable-clothing: !type:ContainerSlot {}
@@ -318,9 +322,12 @@
   - type: RepositoryItem
     categoryName: repository-equipment-category
   - type: Item
-    size: Large
-    shape:
-      - 0,0,3,2
+    # StalkerOW - Begin (Experimental Coat Change)
+    #size: Large
+    size: Medium
+    #shape:
+    #  - 0,0,3,2
+    # StalkerOW - End
   - type: Tag
     tags:
     - BlockCloak

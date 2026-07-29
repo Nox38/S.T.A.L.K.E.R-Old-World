@@ -31,27 +31,31 @@
   description: плащ, что сделан специально для охоты в экстремальных условиях, например в условиях ЧЗО, окрашен в зелёный камуфляж.
   suffix: ST, T3
   components:
-  - type: STWeight
-    self: 4
+  # StalkerOW - Begin (Experimental Coat Change)
+  #- type: STWeight
+  #  self: 4
+  # StalkerOW - End
   - type: Sprite
     sprite: _Stalker_EN/Objects/Clothing/cloak/hunterskiy.rsi # Stalker EN - (Less Saturated Greens) recolor this coat to be less horribly saturated.
   - type: Clothing
     sprite: _Stalker_EN/Objects/Clothing/cloak/hunterskiy.rsi # Stalker EN - (Less Saturated Greens)
-  - type: Storage
-    maxItemSize: Normal
-    blacklist:
-      tags:
-      - STArtifact
-    grid:
-      - 0,4,0,5
-      - 0,0,0,2
-      - 2,4,2,5
-      - 2,1,3,2
-      - 4,4,4,5
-      - 5,1,6,2
-      - 6,4,6,5
-      - 8,4,8,5
-      - 8,0,8,2
+  # StalkerOW - Begin (Experimental Coat Change)
+  #- type: Storage
+  #  maxItemSize: Normal
+  #  blacklist:
+  #    tags:
+  #    - STArtifact
+  #  grid:
+  #    - 0,4,0,5
+  #    - 0,0,0,2
+  #    - 2,4,2,5
+  #    - 2,1,3,2
+  #    - 4,4,4,5
+  #    - 5,1,6,2
+  #    - 6,4,6,5
+  #    - 8,4,8,5
+  #    - 8,0,8,2
+  # StalkerOW - End
   #- type: ExplosionResistance Stalker EN - Removed kevlar coat armor.
   #  damageCoefficient: 0.85
   - type: UserInterface
@@ -95,8 +99,10 @@
   description: Плащ, сделанный в условиях зоны, на удивление качественная работа, сделан из качественной кожи и прошит кевларом,кое-где вставлены бронепластины, окрашен в необычный камуфляж.
   suffix: ST, T3
   components:
-  - type: STWeight
-    self: 4 # Stalker EN - No armor means lower weight!
+  # StalkerOW - Begin (Experimental Coat Change)
+  #- type: STWeight
+  #  self: 4 # Stalker EN - No armor means lower weight!
+  # StalkerOW - End
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/cloak/kevlaroviy.rsi
   - type: Clothing
@@ -109,21 +115,23 @@
   #      Slash: 0.9
   #      Piercing: 0.9
   #      Heat: 0.9
-  - type: Storage
-    maxItemSize: Normal
-    blacklist:
-      tags:
-      - STArtifact
-    grid:
-      - 0,4,0,5
-      - 0,0,0,2
-      - 2,4,2,5
-      - 2,1,3,2
-      - 4,4,4,5
-      - 5,1,6,2
-      - 6,4,6,5
-      - 8,4,8,5
-      - 8,0,8,2
+  # StalkerOW - Begin (Experimental Coat Change)
+  #- type: Storage
+  #  maxItemSize: Normal
+  #  blacklist:
+  #    tags:
+  #    - STArtifact
+  #  grid:
+  #    - 0,4,0,5
+  #    - 0,0,0,2
+  #    - 2,4,2,5
+  #    - 2,1,3,2
+  #    - 4,4,4,5
+  #    - 5,1,6,2
+  #    - 6,4,6,5
+  #    - 8,4,8,5
+  #    - 8,0,8,2
+  # StalkerOW - End
   #- type: ExplosionResistance Stalker EN - Removed kevlar coat armor.
   #  damageCoefficient: 0.85
   - type: UserInterface
