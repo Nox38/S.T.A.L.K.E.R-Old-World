@@ -76,8 +76,10 @@
       whitelist:
         tags:
           - Cartridge
+          - Arrow
         components:
           - CartridgeAmmo
+
 
 - type: entity
   parent: ClothingBeltStorageStalkerBase
@@ -102,6 +104,7 @@
       whitelist:
         tags:
           - Knife
+          - Arrow
     # - type: ItemMapper # Stalker-EN-TODO: Layer "knife" does not exist in the rsi!
       # mapLayers:
         # knife:

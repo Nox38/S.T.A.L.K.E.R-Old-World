@@ -277,7 +277,7 @@
         type: ShopBoundUserInterface
   - type: Shop
     moneyId: Roubles
-    shopPresetId: VoenstalShopPresetEN
+    shopPresetId: OKSOPShopPresetEN
   - type: TypingIndicator
     proto: robot
   - type: TTS # Corvax-TTS
