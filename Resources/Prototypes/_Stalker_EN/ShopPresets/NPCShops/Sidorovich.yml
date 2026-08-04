@@ -193,7 +193,8 @@
         # Snipers
         STWeaponSniperSKS: 1850 # T2
         STWeaponSniperMosin: 1500
-
+        # crossbows
+        STweaponCrossbow: 3000
     - name: shop-category-magazines
       priority: 2
       items:
@@ -246,6 +247,9 @@
         45ACPLFMJBox: 100 #T1
         45ACPRIPBox: 500 # Mutant
         45ACPMFMJBox: 1000 #t2
+        # bolts
+        STArrowboltbodkin: 750
+        STArrowboltbroadhead: 500
     - name: shop-category-medicine
       priority: 4
       items:
