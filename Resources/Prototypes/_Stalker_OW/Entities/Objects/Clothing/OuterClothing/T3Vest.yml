@@ -131,9 +131,9 @@
   description: A enhanced version of the classic Shield-2 armor vest, painted in Mercenary colors.
   components:
     - type: Sprite
-      sprite: _Stalker/Objects/Clothing/outerClothing/IOTV/Merc.rsi
+      sprite: _Stalker/Objects/Clothing/outerClothing/plate_merc.rsi
     - type: Clothing
-      sprite: _Stalker/Objects/Clothing/outerClothing/IOTV/Merc.rsi
+      sprite: _Stalker/Objects/Clothing/outerClothing/plate_merc.rsi
     - type: Craftable
 
 # Military armor would go here, but currently they have the PSZ instead.

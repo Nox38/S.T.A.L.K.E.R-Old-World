@@ -374,7 +374,7 @@
         ClothingOuterArmorAborigineStalker: 10000 # T3 - PvE
         #ClothingOuterArmor6B2: 2000 # ST:OW
         STClothingOuterArmorRCBZ: 1800 # T2 - ENV
-        STClothingOuterArmorLightPlateVestBaseStalker: 1250 # T2 - PvP
+        #STClothingOuterArmorLightPlateVestBaseStalker: 1250 # ST:OW
         # Helmet
         ClothingHeadHelmetVityaz1C: 3500 # T3 - PvP
         ClothingHeadHelmetInfantry: 500 # T2
