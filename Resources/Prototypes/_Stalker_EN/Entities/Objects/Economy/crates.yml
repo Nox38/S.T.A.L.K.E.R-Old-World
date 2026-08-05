@@ -728,9 +728,9 @@
 
 - type: entity
   parent: STBaseItem
-  id: SetMonolithBuyableCrateSeva
-  name: Monolith Set "Seva"
-  description: A set containing a seva suit.
+  id: SetMonolithBuyableCrateT3Light  #OW Change Start
+  name: Monolith Set "T3 Light"
+  description: A set containing a seva suit designed for light combat.  #OW Change End
   suffix: ST, T1, Cache
   components:
   - type: STWeight

@@ -3,9 +3,9 @@
   id: MonolithInventoryEN
   startingInventory:
     SetMonolithBuyableCrateT3Heavy: 10
+    SetMonolithBuyableCrateT3Light: 10  # OW
     SetMonolithBuyableCrateT2Heavy: 10
     SetMonolithBuyableCrateT2Light: 10
-    SetMonolithBuyableCrateSeva: 10
     SetMonolithBuyableCrateInfiltrator1: 10
     SetMonolithBuyableCrateInfiltrator2: 10
     ClothingNeckScarfWhite: 10
