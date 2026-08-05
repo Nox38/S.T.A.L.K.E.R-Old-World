@@ -186,12 +186,18 @@
         ClothingHeadHelmetBerill5MMilitary: 950 # T2 - PVP
         ClothingHeadHelmetVityaz1C: 2000 # T3 - PVP
         # OuterClothing #
-        STClothingOuterArmorLightPlateVestBaseMilitary: 750 # T2 - PvP
-        ClothingOuterArmor6B2: 1200 # T2 - PvP
+        # ST:OW - Begin
+        #STClothingOuterArmorLightPlateVestBaseMilitary: 750 # T2 - PvP
+        #ClothingOuterArmor6B2: 1200 # T2 - PvP
+        STOWClothingOuterArmorT2VestMilitary: 750 # T2 - PvP
+        # ST:OW - End
         ClothingOuterArmorMilitarySpark: 1750 # T2 - ENV
         ClothingOuterArmorZaryaMilitary: 1750 # T2 - universal
-        STClothingOuterArmorLightPlateVestBaseANAgreen: 2250 # T3 - PVP
-        STClothingOuterArmorLightPlateVestBaseANAgray: 2250 # T3 - PVP
+        # ST:OW - Begin
+        #STClothingOuterArmorLightPlateVestBaseANAgreen: 2250 # T3 - PVP
+        #STClothingOuterArmorLightPlateVestBaseANAgray: 2250 # T3 - PVP
+        # ST:OW - End
+        # ST:OW - End
         STClothingOuterArmorLightPlateVestBasePSZ7v3: 3000
         STClothingOuterArmorLightPlateVestBasePSZ7v1: 3000
 
