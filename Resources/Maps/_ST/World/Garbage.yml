@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/29/2026 01:56:42
-  entityCount: 32472
+  time: 08/06/2026 09:51:01
+  entityCount: 32465
 maps:
 - 1
 grids:
@@ -191509,6 +191509,21 @@ entities:
     - type: Transform
       pos: -123.5,78.5
       parent: 1
+  - uid: 20686
+    components:
+    - type: Transform
+      pos: 22.5,455.5
+      parent: 1
+  - uid: 20694
+    components:
+    - type: Transform
+      pos: -103.5,247.5
+      parent: 1
+  - uid: 20696
+    components:
+    - type: Transform
+      pos: -85.5,248.5
+      parent: 1
 - proto: STTriggerSeasonedBoar122510
   entities:
   - uid: 20683
@@ -191526,11 +191541,6 @@ entities:
     - type: Transform
       pos: 85.5,393.5
       parent: 1
-  - uid: 20686
-    components:
-    - type: Transform
-      pos: 22.5,455.5
-      parent: 1
   - uid: 20688
     components:
     - type: Transform
@@ -191541,18 +191551,65 @@ entities:
     - type: Transform
       pos: -133.5,92.5
       parent: 1
+  - uid: 20702
+    components:
+    - type: Transform
+      pos: -103.5,346.5
+      parent: 1
+  - uid: 20703
+    components:
+    - type: Transform
+      pos: -110.5,399.5
+      parent: 1
+  - uid: 20706
+    components:
+    - type: Transform
+      pos: -90.5,63.5
+      parent: 1
   - uid: 20708
     components:
     - type: Transform
       pos: 3.5,462.5
       parent: 1
-- proto: STTriggerSeasonedBoar141010
-  entities:
+  - uid: 20715
+    components:
+    - type: Transform
+      pos: 54.5,447.5
+      parent: 1
+  - uid: 20718
+    components:
+    - type: Transform
+      pos: 49.5,387.5
+      parent: 1
   - uid: 20724
     components:
     - type: Transform
-      pos: -104.5,247.5
+      pos: -116.5,388.5
       parent: 1
+  - uid: 20727
+    components:
+    - type: Transform
+      pos: -47.5,250.5
+      parent: 1
+  - uid: 22965
+    components:
+    - type: Transform
+      pos: -165.5,105.5
+      parent: 1
+  - uid: 32441
+    components:
+    - type: Transform
+      pos: 2.5,501.5
+      parent: 1
+- proto: STTriggerSeasonedBoar122530
+  entities:
+  - uid: 20705
+    components:
+    - type: Transform
+      pos: 2.5,343.5
+      parent: 1
+- proto: STTriggerSeasonedBoar141010
+  entities:
   - uid: 20725
     components:
     - type: Transform
@@ -191562,11 +191619,6 @@ entities:
     components:
     - type: Transform
       pos: -1.5,446.5
-      parent: 1
-  - uid: 20727
-    components:
-    - type: Transform
-      pos: -85.5,248.5
       parent: 1
   - uid: 20728
     components:
@@ -191600,20 +191652,10 @@ entities:
     - type: Transform
       pos: -73.5,426.5
       parent: 1
-  - uid: 20694
-    components:
-    - type: Transform
-      pos: -104.5,346.5
-      parent: 1
   - uid: 20695
     components:
     - type: Transform
       pos: -61.5,366.5
-      parent: 1
-  - uid: 20696
-    components:
-    - type: Transform
-      pos: -110.5,399.5
       parent: 1
   - uid: 20697
     components:
@@ -191625,30 +191667,10 @@ entities:
     - type: Transform
       pos: -99.5,340.5
       parent: 1
-  - uid: 20702
-    components:
-    - type: Transform
-      pos: 2.5,343.5
-      parent: 1
-  - uid: 20703
-    components:
-    - type: Transform
-      pos: -90.5,64.5
-      parent: 1
   - uid: 20704
     components:
     - type: Transform
       pos: 39.5,447.5
-      parent: 1
-  - uid: 20705
-    components:
-    - type: Transform
-      pos: 54.5,448.5
-      parent: 1
-  - uid: 20706
-    components:
-    - type: Transform
-      pos: 49.5,387.5
       parent: 1
   - uid: 20713
     components:
@@ -191660,11 +191682,6 @@ entities:
     - type: Transform
       pos: -123.5,372.5
       parent: 1
-  - uid: 20715
-    components:
-    - type: Transform
-      pos: -116.5,388.5
-      parent: 1
   - uid: 20716
     components:
     - type: Transform
@@ -191674,11 +191691,6 @@ entities:
     components:
     - type: Transform
       pos: -49.5,309.5
-      parent: 1
-  - uid: 20718
-    components:
-    - type: Transform
-      pos: -47.5,250.5
       parent: 1
   - uid: 20719
     components:
@@ -191704,11 +191716,6 @@ entities:
     components:
     - type: Transform
       pos: 15.5,48.5
-      parent: 1
-  - uid: 22965
-    components:
-    - type: Transform
-      pos: -165.5,105.5
       parent: 1
 - proto: STTriggerSnork125030
   entities:
