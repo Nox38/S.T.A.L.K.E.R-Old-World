@@ -1,0 +1,24 @@
+# Contains any clothing that should use BOTH torso and leg slots & which uses a Wizden sprite.
+- type: entity
+  parent: STOWBaseClothingJumpsuit
+  id: STOWClothingJumpsuitSuitBlack
+  name: black suit
+  description: A fine black suit of the sort worn by politicians and mobsters. Completely unfit for the Zone, but it makes a statement.
+  components:
+  - type: Sprite
+    sprite: _Stalker_OW/Objects/Clothing/Jumpsuit/Wizden/blacksuit.rsi
+  - type: Clothing
+    sprite: _Stalker_OW/Objects/Clothing/Jumpsuit/Wizden/blacksuit.rsi
+
+- type: entity
+  parent: STOWBaseClothingJumpsuit
+  id: STOWClothingJumpsuitMaidDress
+  name: maid dress
+  description: TBD # Todo
+  suffix: NEED HEADMIN PERMISSION TO SPAWN # >:3
+  components:
+    - type: Sprite
+      sprite: _Stalker_OW/Objects/Clothing/Jumpsuit/Wizden/maiddress.rsi # Borrowed the sprite from Wizden.
+    - type: Clothing
+      sprite: _Stalker_OW/Objects/Clothing/Jumpsuit/Wizden/maiddress.rsi
+
