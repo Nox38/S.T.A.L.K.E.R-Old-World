@@ -162,10 +162,12 @@
       items:
           # Helmets #
         ClothingHeadHelmetDolg: 200 # T1 - PVE
+        # ST:OW - Begin
         STOWClothingHeadHelmetT2PVPDuty: 750 # T2 - PVP
-        STOWClothingHeadHelmetT3PVPAltDuty: 3000 #T3 - Changed ID
-        STOWClothingHeadHelmetT3PVEDuty: 3000 #T3
-      # STOWClothingHeadHelmetT3PVPDuty: 3000 #T3 - Removed in favor of Sphere
+        # STOWClothingHeadHelmetT3PVPDuty: 3000 T3 - PVP (Removed in favor of Sphere)
+        STOWClothingHeadHelmetT3PVPAltDuty: 3000 # T3 - PVP
+        STOWClothingHeadHelmetT3PVEDuty: 3000 # T3 - PVE
+        # ST:OW - End
           # OuterClothing #
         ClothingOuterJacketDolg: 60 # T1 - PVE
         #STClothingOuterArmorLightPlateVestBaseDolg: 2000 # ST:OW

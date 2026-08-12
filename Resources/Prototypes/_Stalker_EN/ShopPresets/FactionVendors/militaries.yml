@@ -181,10 +181,12 @@
       items:
         # Helmets #
         ClothingHeadHelmetSH68: 200 # T1 - PVP
+        # ST:OW - Begin
         STOWClothingHeadHelmetT2PVPMilitary: 600 # T2 - PVP
       # STOWClothingHeadHelmetT3PVPMilitary: 1200 # T3 - PVP - Removed in favor of the Sphere
         STOWClothingHeadHelmetT3PVPAltMilitary: 950 # T2 - PVP - Changed ID
-        STOWClothingHeadHelmetT3PVEStalker: 2000 # T3 - PVE
+        STOWClothingHeadHelmetT3PVEStalker: 1000 # T3 - PVE
+        # ST:OW - End
         # OuterClothing #
         STClothingOuterArmorLightPlateVestBaseMilitary: 750 # T2 - PvP
         ClothingOuterArmor6B2: 1200 # T2 - PvP

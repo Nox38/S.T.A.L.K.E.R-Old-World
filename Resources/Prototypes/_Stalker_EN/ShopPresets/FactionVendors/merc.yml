@@ -229,9 +229,11 @@
         SetMercBuyableCrate: 12000 # T3 - PvP
         #Helmets
         ClothingHeadMercLight: 300
-        STOWClothingHeadHelmetT3PVPMerc: 3000 # T3 - PvP
+        # ST:OW - Begin
         STOWClothingHeadHelmetT2PVPMerc: 600 # T2 - PvP
+        STOWClothingHeadHelmetT3PVPMerc: 3000 # T3 - PvP
         STOWClothingHeadHelmetT3PVEMerc: 3000 # T3 - PvP
+        # ST:OW - End
 
     - name: shop-category-storage-and-containers
       priority: 7

@@ -206,10 +206,11 @@
       priority: 6
       items:
           # Helmets #
+        # ST:OW - Begin
         STOWClothingHeadHelmetT2PVPStalker: 600 # T2 - PVP
-        STOWClothingHeadHelmetT3PVPAltFreedom: 3000 # T3 - PVP - Changed ID
+        # STOWClothingHeadHelmetT3PVPFreedom: 3000 # T3 - Removed in favor of the Sphere
+        STOWClothingHeadHelmetT3PVPAltFreedom: 3000 # T3 - PVP
         STOWClothingHeadHelmetT3PVEFreedom: 3000 # T3 - PVE
-      # STOWClothingHeadHelmetT3PVPFreedom: 3000 # T3 - Removed in favor of the Sphere
           # OuterClothing #
         ClothingOuterJacketFreedom: 60 # T1 - PVE
         #STClothingOuterArmorLightPlateVestBaseFreedom: 1000 # ST:OW

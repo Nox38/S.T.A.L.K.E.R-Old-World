@@ -297,9 +297,11 @@
     items:
       # Helmets #
       ClothingHeadHelmetSH68ClearSky: 300 # T1 - PVP
+      # ST:OW - Begin
       STOWClothingHeadHelmetT2PVPStalker: 875 # T2 - PVP
-      STOWClothingHeadHelmetT3PVPAltMaskClearSky: 3250 # T3 - PVP - Changed to New ID
       STOWClothingHeadHelmetT3PVEClearSky: 3000 # T3 - PVE
+      STOWClothingHeadHelmetT3PVPAltMaskClearSky: 3250 # T3 - PVP w/mask
+      # ST:OW - End
 
       # OuterClothing #
       ClothingOuterJacketCN: 60 # T1 - PVE
