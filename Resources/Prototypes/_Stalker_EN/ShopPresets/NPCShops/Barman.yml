@@ -376,9 +376,11 @@
         STClothingOuterArmorRCBZ: 1800 # T2 - ENV
         #STClothingOuterArmorLightPlateVestBaseStalker: 1250 # ST:OW
         # Helmet
+        # ST:OW - Begin
         STOWClothingHeadHelmetT3PVEStalker: 3500 # ST:OW T3 - PVE
         STOWClothingHeadHelmetT2PVPStalker: 500 # T2 - PvP
         STOWClothingHeadHelmetT2PVEStalker: 1000 # T2 - PvE
+        # ST:OW - End
         ClothingHeadHelmetSH68: 250 # T1 - PVP
         ClothingHeadHelmetLight: 300 # T1 - uni
 

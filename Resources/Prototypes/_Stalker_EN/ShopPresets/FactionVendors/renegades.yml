@@ -250,7 +250,7 @@
       # ST:OW - Begin
       STOWClothingHeadHelmetT2PVPRenegade: 600 # T2 - PVP
       STOWClothingHeadHelmetT3PVERenegade: 3000 # T3 - PVE
-      STOWClothingHeadHelmetT3PVPStalker: 3500 # T3 - PVP
+      STOWClothingHeadHelmetT3PVPAltMaskSkull: 4000 # T3 - PVP w/T3 gas mask
       # ST:OW - End
       # OuterClothing #
       ClothingJaketRealHuman: 60 # T1 - PVE

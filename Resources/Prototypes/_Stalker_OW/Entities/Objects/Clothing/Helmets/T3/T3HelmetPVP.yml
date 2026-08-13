@@ -2,6 +2,7 @@
   abstract: true
   parent: STClothingHeadBase # Can replace with our own parent later to disconnect from RU prototypes.
   id: STOWClothingHeadHelmetT3PVPBase
+  description: "The 'Zenith' is a foreign combat helmet imported to the Zone, sporting a low-cut design."
   suffix: STOW, T3, PVP
   components:
   - type: Craftable
@@ -15,7 +16,7 @@
         Slash: 0.85
         Piercing: 0.75
   - type: ExplosionResistance
-    damageCoefficient: 0.95 # Removed Reflect, added 5% Pierce resist.
+    damageCoefficient: 0.95
   - type: HideLayerClothing
     slots:
     - Hair
@@ -25,7 +26,6 @@
   parent: STOWClothingHeadHelmetT3PVPBase
   id: STOWClothingHeadHelmetT3PVPStalker
   name: Zenith Helmet
-  description: combat helmet of the Zenith brand, providing the third class of protection.
   components:
   - type: Sprite
     sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm.rsi
@@ -36,8 +36,8 @@
   parent: STOWClothingHeadHelmetT3PVPBase
   id: STOWClothingHeadHelmetT3PVPUN
   name: UN Zenith Helmet
-  description: Combat helmet of the Zenith brand, third protection class, in peacekeeper colors.
-  suffix: STOW, UN, T3 # OW
+  description: "The 'Zenith' is a foreign combat helmet imported to the Zone, sporting a low-cut design. This one is painted light blue, standard for UN peacekeepers."6
+  suffix: STOW, UN, T3, PVP
   components:
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/hats/un_head.rsi
@@ -71,7 +71,7 @@
   parent: STOWClothingHeadHelmetT3PVPBase
   id: STOWClothingHeadHelmetT3PVPBandit
   name: Bandit Zenith Helmet
-  description: combat helmet of the Zenith brand, providing the third class of protection.
+  description: "The 'Zenith' is a foreign combat helmet imported to the Zone, sporting a low-cut design. This one is painted black with white stripes, Bandit colors."
   components:
   - type: Sprite
     sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_bandit.rsi
@@ -93,7 +93,7 @@
   parent: STOWClothingHeadHelmetT3PVPBase
   id: STOWClothingHeadHelmetT3PVPMerc
   name: Mercenary Zenith Helmet
-  description: combat helmet of the Zenith brand, providing the third class of protection.
+  description: "The 'Zenith' is a foreign combat helmet imported to the Zone, sporting a low-cut design. This one is painted in Mercenary dark blue."
   components:
   - type: Sprite
     sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_merc.rsi
@@ -114,39 +114,25 @@
 # Sphere Helmets
 
 - type: entity
-  abstract: true
-  parent: STClothingHeadBase
-  id: STOWClothingHeadHelmetT3PVPAltBase # OW Changed ID
+  parent: STOWClothingHeadHelmetT3PVPBase
+  id: STOWClothingHeadHelmetT3PVPAltBase
+  description: "The Sphere-08 is a combat helmet developed for the UAF, so called for its unusually round shape. It is one of the more common helmets to find in Ukraine, and as such, is often used by stalkers."
   suffix: STOW, T3, PVP
+  abstract: true
   components:
     - type: Craftable
-    - type: STWeight
-      self: 2.1
-    - type: Armor
-      armorClass: 3
-      modifiers:
-        coefficients:
-          Blunt: 0.80
-          Slash: 0.85
-          Piercing: 0.75
-    - type: ExplosionResistance
-      damageCoefficient: 0.95
-    - type: HideLayerClothing
-      slots:
-        - Hair
-        - HeadTop
 
 - type: entity
   parent: STOWClothingHeadHelmetT3PVPAltBase
   id: STOWClothingHeadHelmetT3PVPAltMilitary # OW Begin - Changed IDs from T3Sphere to T3PVPAlt
   name: Military Sphere-08
-  description: A helmet for lucky soldiers and veterans, designed to protect against stabbing attacks. It’s a helmet from the 'Beryl-5M' series.
+  description: "The Sphere-08 is a combat helmet developed for the UAF, so called for its unusually round shape. This version, used by OKSOP, has a light source built into the helmet."
   components:
     - type: Sprite
       sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_military.rsi
       layers:
-        - state: icon
         - state: light-icon
+        - state: icon
           shader: unshaded
           visible: false
           map: [ "light" ]
@@ -198,13 +184,13 @@
       slots:
         cell_slot:
           name: power-cell-slot-component-slot-name-default
-          startingItem: PowerCellHyper
+          startingItem: PowerCellHyper # Todo: make this stronger light
     - type: Craftable
 
 - type: entity
   parent: STOWClothingHeadHelmetT3PVPAltBase
   id: STOWClothingHeadHelmetT3PVPAltDuty
-  name: Duty Sphere-08
+  name: Duty Sphere-08 "Tower"
   description: This model is a modification of the Sphere-08 army helmet, made for the Duty faction. It provides Class 3 protection, capable of withstanding blunt impacts, shrapnel, and, to some extent, bullets of penetration classes 1 and 2. A reliable helmet at a fair price.
   components:
     - type: Sprite
@@ -215,27 +201,29 @@
 - type: entity
   parent: STOWClothingHeadHelmetT3PVPAltBase
   id: STOWClothingHeadHelmetT3PVPAltFreedom
-  name: Freedom Sphere-08
-  description: This model is a modification of the Sphere-08 army helmet, for the Freedom group. It provides class 3 protection, able to withstand blunt impacts, shrapnel, and to some extent, class 1 and 2 penetration bullets. A reliable helmet at a decent price.
+  name: Freedom Sphere-08 "Turtle"
+  description: "The Sphere-08 is a combat helmet developed for the UAF, so called for its unusually round shape. This one features Freedom's green Flecktarn camouflage."
   components:
     - type: Sprite
-      sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_svoboda.rsi # Stalker EN change - gave it a new sprite and made it obtainable.
+      sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_svoboda.rsi
     - type: Clothing
-      sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_svoboda.rsi # Stalker EN change - gave it a new sprite and made it obtainable.
+      sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_svoboda.rsi
 
 - type: entity
   parent: STOWClothingHeadHelmetT3PVPAltBase
-  id: STOWClothingHeadHelmetT3PVPAltMaskBase # OW Begin - Changed IDs from Spheremask to PVPAltMask
+  id: STOWClothingHeadHelmetT3PVPAltMaskBase
+  description: "The Sphere-12 is a variant of the UAF's Sphere-08, featuring a integrated gas mask. It is somewhat rare in the Zone, worn only by the wealthier stalkers."
+  abstract: true
   components:
-    - type: Armor # +5% blunt/slash, T3 gas mask protection. Blocks mouth slot.
+    - type: Armor # T3 gas mask protection. Blocks mouth slot.
       armorClass: 3
       modifiers:
         coefficients:
           Blunt: 0.80
           Slash: 0.85
-          Piercing: 0.75 # OW - Fixed missing stat
+          Piercing: 0.75
         flatReductions: 
-          Radiation: 4 # OW - Fixed Stat to match T3 Gasmask
+          Radiation: 4 # OW - Matches T3 gas masks.
     - type: IngestionBlocker
     - type: IdentityBlocker
     - type: Tag
@@ -246,7 +234,7 @@
   parent: STOWClothingHeadHelmetT3PVPAltMaskBase
   id: STOWClothingHeadHelmetT3PVPAltMaskClearSky
   name: ChS-12 Sphere Helmet
-  description: Specialized helmet in blue camo, it's made with working deep in the zone in mind.
+  description: "The Sphere-12 is a variant of the UAF's Sphere-08, featuring a integrated gas mask. This model is modified for use by Clear Sky, painted in blue and white."
   components:
     - type: Sprite
       sprite: _Stalker_EN/Objects/Clothing/hats/CS_sphere.rsi
@@ -256,11 +244,9 @@
 - type: entity
   parent: STOWClothingHeadHelmetT3PVPAltMaskBase
   id: STOWClothingHeadHelmetT3PVPAltMaskMonolith
-  name: Monolithian Sphere-12 # OW End - Changed Names to be more consistet
-  description: It is a helmet from Beryl.
+  name: Monolith Sphere-12
+  description: "The Sphere-12 is a variant of the UAF's Sphere-08, featuring a integrated gas mask. This one is painted brown, and covered in Monolith iconography. You would need to use a chemical cleaning kit to safely wear this."
   components:
-    - type: Armor # Irradiated gas mask is useless.
-      armorClass: 3
     - type: Sprite
       sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi
     - type: Clothing
@@ -268,13 +254,13 @@
     - type: PersonalDamage
       damage:
         types:
-          Radiation: 18.01
+          Radiation: 18.01 # A bit of extra rads to counteract the gas mask.
 
 - type: entity
   parent: STOWClothingHeadHelmetT3PVPAltMaskBase
   id: STOWClothingHeadHelmetT3PVPAltMaskMonolithClean
-  name: Cleaned Monolithian Sphere-12
-  description: A cleaned version of the monolithian sphere
+  name: Monolith Sphere-12 (Chemical Cleaned)
+  description: "The Sphere-12 is a variant of the UAF's Sphere-08, featuring a integrated gas mask. This one is painted brown, with a white stripe indicating it has been chemically cleaned and is safe to handle."
   components:
     - type: Sprite
       sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi
@@ -283,10 +269,11 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetT3PVPAltMaskBase
-  id: STOWClothingHeadHelmetT3PVPAltMaskSkull # OW End - Changed IDs from Spheremask to PVPAltMask
+  id: STOWClothingHeadHelmetT3PVPAltMaskSkull # For Renegades.
   name: Horned Visage
-  description: A horned animal's skull with steel plates and a gas mask inside.
+  description: "A modified animal skull worn by Renegades. Steel plates on the inside protect your head, while a rather nice integrated gas mask keeps you safe in all but the strongest of radiation."
   components:
     - type: Sprite
       sprite: _Stalker/Objects/Clothing/hats/VityazS3.rsi
-
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/hats/VityazS3.rsi

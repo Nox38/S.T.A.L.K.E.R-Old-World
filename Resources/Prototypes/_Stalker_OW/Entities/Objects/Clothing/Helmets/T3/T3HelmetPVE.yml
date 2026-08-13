@@ -1,9 +1,9 @@
 - type: entity
-  abstract: true
   parent: STClothingHeadBase # Can replace with our own parent later to disconnect from RU prototypes.
   id: STOWClothingHeadHelmetT3PVEBase
-  name: Vityaz Tactical Helmet
+  description: "The Vityaz is a steel helmet from the Cold War, featuring a visor intended to protect the face against shrapnel. Certain to make it harder for mutants to reach anything vital."
   suffix: STOW, T3, PVE
+  abstract: true
   components:
   - type: Craftable
   - type: IngestionBlocker
@@ -13,7 +13,7 @@
       - BlockMask
   - type: STWeight
     self: 4
-  - type: Armor
+  - type: Armor # 25% blunt, 25% slash, 80% pierce, 25% explosion. %1 reflect as it's a steel helmet. With visor raised, it grants 15% blunt, 15% slash, and 10% pierce, but doesn't block the face.
     armorClass: 3
     modifiers:
       coefficients:
@@ -23,7 +23,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.75
   - type: Reflect
-    reflectProb: 0.01
+    reflectProb: 0.1
     spread: 360
     reflects:
       - NonEnergy
@@ -32,7 +32,7 @@
     toggleAction: ActionToggleHelmetVisor
     equippedPrefixUp: visor-up
     iconStateUp: icon-visor-up
-    visorUpReflectProb: 0.01
+    visorUpReflectProb: 0.1
     visorUpModifiers:
       coefficients:
         Blunt: 0.85
@@ -50,8 +50,7 @@
 - type: entity
   parent: STOWClothingHeadHelmetT3PVEBase
   id: STOWClothingHeadHelmetT3PVEStalker
-  name: Vityaz Helmet
-  description: The Vityaz-S shockproof helmet was made at the Steel Research Institute. Development on the helmet started in the late 1980s. The helmet got a visor, even though it ended up being pretty bulky.
+  name: Vityaz 1S
   components:
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/hats/Vityaz1C.rsi
@@ -61,8 +60,8 @@
 - type: entity
   parent: STOWClothingHeadHelmetT3PVEBase
   id: STOWClothingHeadHelmetT3PVERenegade
-  name: Renegade Vityaz Helmet # OW Begin - Changed names to be more consistent
-  description: Shockproof helmet 'Vityaz 1C', modified by the Renegades.
+  name: Renegade Vityaz 1S
+  description: "The Vityaz is a steel helmet from the Cold War, featuring a visor intended to protect the face against shrapnel. Certain to make it harder for mutants to reach anything vital."
   components:
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/hats/Vityaz1L.rsi
