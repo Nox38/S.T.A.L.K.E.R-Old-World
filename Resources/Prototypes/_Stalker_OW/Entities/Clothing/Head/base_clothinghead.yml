@@ -1,0 +1,7 @@
+- type: entity
+  parent: ClothingHeadSuitWithLightBase
+  id: STOWClothingHeadSuitWithLightBase # Just the upstream base light but stronger.
+  abstract: true
+  components:
+  - type: PointLight
+    radius: 12 # Equivalent to a (Stalker) seclite.

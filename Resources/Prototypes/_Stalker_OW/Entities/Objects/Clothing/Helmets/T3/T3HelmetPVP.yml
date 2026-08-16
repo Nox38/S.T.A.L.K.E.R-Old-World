@@ -36,7 +36,7 @@
   parent: STOWClothingHeadHelmetT3PVPBase
   id: STOWClothingHeadHelmetT3PVPUN
   name: UN Zenith Helmet
-  description: "The 'Zenith' is a foreign combat helmet imported to the Zone, sporting a low-cut design. This one is painted light blue, standard for UN peacekeepers."6
+  description: "The 'Zenith' is a foreign combat helmet imported to the Zone, sporting a low-cut design. This one is painted light blue, standard for UN peacekeepers."
   suffix: STOW, UN, T3, PVP
   components:
   - type: Sprite
@@ -142,17 +142,18 @@
     - type: Item
       heldPrefix: off
     - type: ItemTogglePointLight
-    - type: PointLight
+    - type: PointLight # Built in light: equivalent to a pocket-mounted seclite.
       enabled: false
       mask: /Textures/Effects/LightMasks/cone.png
       autoRot: true
-      radius: 8
+      radius: 12 # Controls the size and range of the light cone.
       netsync: false
     - type: Appearance
     - type: HandheldLight
       addPrefix: false
       blinkingBehaviourId: blinking
       radiatingBehaviourId: radiating
+      wattage: 0.5 # Controls power efficiency.
     - type: LightBehaviour
       behaviours:
         - !type:FadeBehaviour
@@ -184,7 +185,7 @@
       slots:
         cell_slot:
           name: power-cell-slot-component-slot-name-default
-          startingItem: PowerCellHyper # Todo: make this stronger light
+          startingItem: PowerCellMedium
     - type: Craftable
 
 - type: entity
@@ -223,7 +224,7 @@
           Slash: 0.85
           Piercing: 0.75
         flatReductions: 
-          Radiation: 4 # OW - Matches T3 gas masks.
+          Radiation: 4
     - type: IngestionBlocker
     - type: IdentityBlocker
     - type: Tag

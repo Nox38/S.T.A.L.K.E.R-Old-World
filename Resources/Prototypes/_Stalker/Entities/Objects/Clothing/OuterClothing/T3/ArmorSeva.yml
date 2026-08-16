@@ -47,7 +47,7 @@
         ents: []
 
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
+  parent: [ ClothingHeadHardsuitBase, STOWClothingHeadSuitWithLightBase ] # ST:OW - Replaced vanilla parent with STOW for stronger helmet-light.
   id: STClothingHeadHardsuitSevaHelmBase
   name: шлем севы #base
   description: Несмотря, на преимущественно стеклянную состовляющую, довольно прочный.

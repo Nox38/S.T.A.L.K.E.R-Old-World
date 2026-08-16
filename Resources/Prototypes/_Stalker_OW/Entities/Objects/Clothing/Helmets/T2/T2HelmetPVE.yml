@@ -17,7 +17,7 @@
         Slash: 0.80
         Piercing: 0.90
   - type: ExplosionResistance
-    damageCoefficient: 0.85
+    damageCoefficient: 0.95 # Todo: Buff this to be stronger than the T2 PVP helmet.
   - type: HideLayerClothing
     slots:
     - Hair
