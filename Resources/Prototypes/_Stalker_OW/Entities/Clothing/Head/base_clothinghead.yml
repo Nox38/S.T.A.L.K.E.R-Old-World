@@ -4,4 +4,4 @@
   abstract: true
   components:
   - type: PointLight
-    radius: 12 # Equivalent to a (Stalker) seclite.
+    radius: 8 # Equivalent to a base-game seclite (stalker seclite is stronger).

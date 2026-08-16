@@ -146,7 +146,7 @@
       enabled: false
       mask: /Textures/Effects/LightMasks/cone.png
       autoRot: true
-      radius: 12 # Controls the size and range of the light cone.
+      radius: 8 # Controls the size and range of the light cone.
       netsync: false
     - type: Appearance
     - type: HandheldLight
